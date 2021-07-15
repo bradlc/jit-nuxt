@@ -1,0 +1,19 @@
+{
+  "name": "jit-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env TAILWIND_MODE=watch nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
+  }
+}
